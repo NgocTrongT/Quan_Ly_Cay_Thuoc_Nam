@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(txt_user.getText().length()!=0&&txt_password.getText().length()!=0){
-                    if(txt_user.getText().toString().equals("letruongthinh") &&  txt_password.getText().toString().equals("123")){
+                    if(txt_user.getText().toString().equals("hoangbuingoctrong") &&  txt_password.getText().toString().equals("123")){
                         Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                         startActivity(intent);
                         Toast.makeText(LoginActivity.this, "Dang nhap thanh cong!!", Toast.LENGTH_SHORT).show();
